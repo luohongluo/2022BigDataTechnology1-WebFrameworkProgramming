@@ -1,5 +1,5 @@
 import axios from "axios";
-let baseUrl = "http://localhost:8081";
+let baseUrl = "http://localhost:8080";
 // 封装 GET 请求
 export const getRequest = (url, params) => {
     return axios({

@@ -1,6 +1,7 @@
 import Vue from "vue"; //导入 Vue 模块
 import VueRouter from "vue-router";// 第二步：导入 VueRouter 模块
 import User from "@/views/User.vue";
+import NotFound from "@/views/NotFound.vue";
 Vue.use(VueRouter); //第三步：Vue.use 安装注册
 const routes = [
     {
